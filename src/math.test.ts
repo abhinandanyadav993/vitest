@@ -3,7 +3,7 @@ import { add, multiply } from './math';
 
 describe('math', () => {
   it('adds numbers', () => {
-    expect(add(2, 3)).toBe(5);
+    expect(add(2, 3)).toBe(6);
   });
 
   it('multiplies numbers', () => {

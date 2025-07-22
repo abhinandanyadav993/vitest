@@ -5,6 +5,7 @@ export default defineConfig({
     globals: true,
     coverage: {
       reporter: ['text', 'html'],
+      include: process.env.VITE_COVERAGE_INCLUDE?.split(',') ?? ['src/**/*'],
     },
   },
 });

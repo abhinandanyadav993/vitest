@@ -13,4 +13,8 @@ describe('stringUtils', () => {
   it('reverses a word', () => {
     expect(reverse('abc')).toBe('cba');
   });
+  it('capitalizes the first letter', () => {
+  expect(capitalize('hello')).toBe('Hello');
+});
+
 });
